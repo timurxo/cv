@@ -1,0 +1,379 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Antic Didone', serif;
+  color: #3b6978;
+}
+
+hr {
+  margin: 5% auto 5% auto;
+  border-style: none;
+  border-top-style: solid;
+  /* border-color: #30475e; */
+  border-color: #061737;
+  border-width: 3px;
+  width: 10%;
+  opacity: 0.1;
+}
+
+li {
+  line-height: 2;
+}
+
+
+a {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+
+.h2-header {
+  font-weight: bolder;
+  padding-top: 20px;
+}
+
+/* =============================== NAVIGATION BAR ======================== */
+
+#intro {
+  /* background-color: #203c3c; */
+  background-color: #061737;
+  /* color: #fff; */
+}
+
+.navbar {
+  padding: 0 0 0;
+}
+
+.navbar-brand {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3.5rem;
+  font-weight: bold;
+  opacity: 0.7;
+  margin-right: 500px;
+  /* padding-left: 10%; */
+}
+
+.nav-item {
+  padding: 0 20px;
+  opacity: 0.4;
+}
+
+.nav-link {
+  /* font-weight: bold; */
+  font-size: 1.1rem;
+  /* font-family: 'Montserrat'; */
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Antic Didone', serif;
+}
+
+.container-fluid {
+  padding: 0% 15%;
+}
+
+.navbar-toggler {
+  margin-right: 50px;
+}
+
+/* =============================== TOP IMAGE ======================== */
+.top-container {
+  position: relative;
+  height: 50%
+}
+
+
+.image1 {
+  /* position: relative; */
+  height: 100%;
+  width: 100%;
+  /* opacity: 0.7; */
+  filter: brightness(50%);
+}
+
+.another-top-container {
+  position: absolute;
+  color: #e0dede;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Cinzel', serif;
+
+
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.9;
+  padding-bottom: 180px;
+}
+
+.name-header {
+  padding-bottom: 20px;
+  color: white;
+}
+
+
+/* ========================== EDUCATION ======================== */
+
+.education-container {
+  margin: 100px 100px;;
+  text-align: left;
+}
+
+.school-img {
+  font-size: 70px;
+  margin-bottom: 1rem;
+}
+
+.school-img:hover {
+  color: black;
+}
+
+.education-row {
+  width: 50%;
+  height: auto;
+  margin: 100px auto 200px auto;
+  text-align: left;
+}
+
+.ttu-img {
+  width: 100%;
+  float: right;
+  margin-left: 35px;
+  filter: brightness(80%);
+
+}
+
+.ttu-img:hover {
+  transition: transform .5s ease;
+  transform: scale(1.1);  /* ZOOM IN 120% */
+}
+
+.mc-img {
+  width: 100%;
+  float: left;
+  margin-right: 35px;
+  filter: brightness(80%);
+}
+
+.mc-img:hover {
+  transition: transform .5s ease;
+  transform: scale(1.1);  /* ZOOM IN 120% */
+}
+
+
+.hr-between-campuses {
+    border: 3px solid white;
+}
+
+
+/* ========================== SKILLS ======================== */
+
+ .skills-container {
+  width: 80%;
+  margin: auto;
+  letter-spacing: 2px;
+
+}
+
+.language {
+  width: 5%;
+  border-radius: 50%;
+}
+
+.skills-box{
+  font-size: 70px;
+  margin-bottom: 1rem;
+}
+
+.skills-box:hover {
+  color: black;
+}
+
+.my-skills-header {
+  margin-bottom: 100px;
+}
+
+/* ========================== WORK EXPERIENCE ======================== */
+.work-container {
+  margin: 100px 0;
+}
+
+.work-row {
+  width: 50%;
+  /* margin: 100px 0px 100px auto; */
+  margin: auto;
+  padding-left: 0px;
+  /* text-align: left; */
+}
+
+.study1 {
+  width: 10%;
+}
+
+.study2 {
+  width: 10%;
+}
+
+.work-exp-label {
+  margin-bottom: 30px;
+}
+
+.jobs-list {
+  padding-left: 0px;
+}
+
+.book-icon {
+  font-size: 70px;
+  margin: 30px auto 30px auto;
+}
+
+.book-icon:hover {
+  color: black;
+}
+
+/* ========================== PORFOLIO ======================== */
+.btn-outline-secondary {
+  width: 100px;
+  height: 35px;
+}
+
+
+
+/* ========================== CERTIFICATES ======================== */
+#certificates {
+  /* background-color: #3b6978; */
+  background-color: #0f4c75;
+  margin-top: 50px;
+}
+
+.carousel-item {
+  height: 600px;
+}
+
+#certificates-carousel {
+  padding: 100px 100px;
+}
+
+/* .cert-file {
+  width: 50%;
+  height: 700px;
+} */
+
+.crt {
+  width: 50%;
+}
+/* ========================== RESUME ======================== */
+.download-button {
+  /* background-color: white; */
+  font-size: 70px;
+  color: #3b6978;
+}
+
+.resume-label {
+  margin-bottom: 30px;
+}
+
+
+/* ========================== CONTACT ME ======================== */
+.contact-container {
+  margin: 100px auto 100px auto;
+  /* spacing: 10px; */
+
+}
+
+.contact-me-label {
+    margin-bottom: 100px;
+}
+
+.button-contact {
+  /* color: red; */
+  background-color: white;
+  margin: 10px 5px 10px 5px;
+  /* width: 30%; */
+
+}
+
+.button-contact:hover {
+  color: grey;
+  background-color: grey;
+}
+
+
+/* ========================== BOTTOM ======================== */
+.bottom-container {
+  /* background-color: #393e46; */
+  background-color: #061737;
+  padding: 50px 0 20px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+
+/* for mobile versions */
+@media (max-width: 1040px) {
+
+.another-top-container {
+  padding-top: 25px;
+  padding-bottom: 0px;
+}
+
+.education-container {
+  text-align: center;
+}
+
+
+#certificates-carousel {
+  padding-bottom: 100px;
+}
+
+.carousel-item {
+  height: 300px;
+}
+
+}
+
+@media (min-width: 1040px) and (max-width: 1500px) {
+
+  .certificates-carousel {
+    padding: 200px 0;
+  }
+
+  .crt {
+    width: 60%;
+  }
+}
+
+
+.ml16 {
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+.ml16 .letter {
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
